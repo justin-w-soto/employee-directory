@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
-import { useHistory, useLocation } from 'react-router'
+// import React, { useState } from 'react'
+// import { useHistory, useLocation } from 'react-router'
 import { Link } from 'react-router-dom'
 
 export default function Login() {
-    const history = useHistory()
-    const location = useLocation()
-    const [error, setError] = useState(null);
-    const { from } = location.state || { from: { pathname: '/' } };
+    // const history = useHistory()
+    // const location = useLocation()
+    // const [error, setError] = useState(null);
+    // const { from } = location.state || { from: { pathname: '/' } };
 
 
     return (

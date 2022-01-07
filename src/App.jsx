@@ -13,15 +13,15 @@ function App() {
      <Header />
       <Router>
         <Switch>
-          <Route exact path="/" >
-            <Home />
-          </Route>
-          <Route exact path="/signup">
-            <Auth />
-          </Route>
-          <Route exact path="/login"> 
-            <Login />
-          </Route>
+        <Route exact path="/signup">
+          <Auth />
+        </Route>
+        <Route exact path="/login"> 
+          <Login />
+        </Route>
+        <Route exact path="/" >
+          <Home />
+        </Route>
         </Switch>
       </Router>
     </div>
