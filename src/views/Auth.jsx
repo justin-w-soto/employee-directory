@@ -13,7 +13,7 @@ export default function Auth() {
                 <input type="text" placeholder='password'/>
                 <br />
                 <button type='submit' className='btn-main'>Submit</button>
-                <br />
+                <br />    
                 <Link 
                 to='/login' 
                 className='sign-in-link'>
